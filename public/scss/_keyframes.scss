@@ -1,0 +1,18 @@
+/* -------- KEYFRAMES -------- */
+@include keyframes (opacity) {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@include keyframes (bounce-arrow) {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 10px;
+  }
+}
